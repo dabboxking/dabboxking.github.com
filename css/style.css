@@ -28,29 +28,11 @@ header, main, footer {
     background-color: #0089ec;
     height: 56px;
   }
-
- /* ul.side-nav.fixed {
-    left: -300px !important;
-  }*/
 }
-ul{
-    list-style: disc;
-}
-
-/*ul li span {
-  display: table-cell;
-  padding-left: 10px;
-}*/
-
-/*ul li i {
-  display: table-cell;
-}*/
 
 #section-title{
   padding-top: 70px;
 }
-
-
 
 #section-title, #nav-section {
   background-color: #0089ec;
