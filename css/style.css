@@ -30,51 +30,64 @@ header, main, footer {
   }
 }
 
-#section-title{
-  padding-top: 70px;
+
+blockquote {
+  border-left: 5px solid #039be5;
 }
 
-#section-title, #nav-section {
+ul > li {
+  list-style-type: disc;
+}
+
+#section-title, .nav-section {
   background-color: #0089ec;
   height: 240px;
+}
+
+#section-title{
+  padding-top: 70px;
 }
 
 #profile{
   padding-top: 25vh;
 }
 
-#profile, #education {
+.give-me-height {
   height: 100vh;
 }
 
-#experience, #projects, #skills, #education{
+.real-section{
   padding-top: 0px;
 }
 
-#nav-section {
+.nav-section {
   padding-left: 5px;
   padding-right: 10px;
   padding-top: 70px;
 }
 
-#nav-name {
+.nav-name {
   font-weight: 300;
   font-size: xx-large;
   height: 40px;
 }
-#nav-title {
+.nav-title {
   height: 20px;
 }
 
-#skill-sub-title{
+.skill-sub-title{
   padding: 15px 0px 0px 15px;
   margin-bottom: 0px;
 }
 
-#skill-content{
+.skill-content{
   padding: 0px 0px 10px 15px;
 }
 
-blockquote {
-  border-left: 5px solid #039be5;
+.skill {
+  padding-left: 10px;
+}
+
+.content {
+  padding-left: 20px;
 }
