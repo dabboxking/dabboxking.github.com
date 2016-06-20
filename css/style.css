@@ -39,6 +39,10 @@ ul > li {
   list-style-type: disc;
 }
 
+ul > li.soical-icons {
+  list-style-type: none;
+}
+
 #section-title, .nav-section {
   background-color: #0089ec;
   height: 240px;
