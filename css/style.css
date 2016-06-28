@@ -43,13 +43,9 @@ ul > li.soical-icons {
   list-style-type: none;
 }
 
-#section-title, .nav-section {
+.section-title, .nav-section {
   background-color: #0089ec;
   height: 240px;
-}
-
-#section-title{
-  padding-top: 70px;
 }
 
 #profile{
@@ -92,6 +88,6 @@ ul > li.soical-icons {
   padding-left: 10px;
 }
 
-.content {
+.ul-content {
   padding-left: 20px;
 }
