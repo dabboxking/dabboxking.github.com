@@ -4,7 +4,7 @@ $(document).ready(function(){
       menuWidth: 300
     });
 
-    var url = 'http://quote-api.cfapps.io/quotes';
+    var url = 'quote-api.cfapps.io/quotes';
     $.get(url,function(data) {
         var rand = data[Math.floor(Math.random() * data.length)];
         var quote = data[rand];
