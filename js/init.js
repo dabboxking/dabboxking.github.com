@@ -26,7 +26,8 @@ $(function(){
 
     var init = function() {
       $('.button-collapse').sideNav({
-        menuWidth: 300
+        menuWidth: 300,
+        //closeOnClick: true
       });
       getRandomQuote();
     }; // end init
@@ -45,4 +46,4 @@ $(function(){
 
   app.init();
 
-}); // end of document
+}); // end document

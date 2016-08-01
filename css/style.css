@@ -28,6 +28,16 @@
      -webkit-font-smoothing: antialiased;
  }
 
+ .chip {
+   margin: .5px;
+ }
+
+ .devicons {
+   font-size: 75px;
+   margin: 5px;
+   padding: 5px;
+ }
+
 .icon-block {
   padding: 0 15px;
 }
@@ -57,12 +67,8 @@ blockquote {
   border-left: 5px solid #039be5;
 }
 
-ul > li {
+ul.ul-content > li {
   list-style-type: disc;
-}
-
-ul > li.soical-icons {
-  list-style-type: none;
 }
 
 .section-title, .nav-section {
