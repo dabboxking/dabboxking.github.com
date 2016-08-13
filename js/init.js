@@ -39,7 +39,7 @@ $(function(){
 
     var getRandomQuote = function() {
       //var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      var url = 'the-quote-api.herokuapp.com/quotes/random';//'http://localhost:8080/quotes/random';
+      var url = 'https://the-quote-api.herokuapp.com/random';//'http://localhost:8080/quotes/random';
       $.getJSON(url,function(quote) {
         $('#author').text('- '+quote.author);
         $('#content').text(quote.content);
