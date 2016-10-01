@@ -1,0 +1,27 @@
+{
+  "name": "emmanueljreyme.co",
+  "description": "Personal Website",
+  "main": "",
+  "authors": [
+    "Emmanuel J. Reyme"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dabboxking/dabboxking.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": "public/libs"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-router": "^2.8.1",
+    "devicons": "^1.8.0",
+    "Materialize": "materialize#^0.97.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
