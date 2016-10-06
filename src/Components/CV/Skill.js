@@ -1,7 +1,30 @@
 import React from 'react';
 
+class SkillRow extends React.Component {
+  constructor(props) {
+      super(props);
+  }
+  render() {
+    let title = this.props.skill.title;
+    let name = this.props.skill.name;
+    console.log('title: ' + title + ' name: ' + name);
+    return (
+      <span title='{title}' className="devicons devicons-"></span>
+    );
+  }
+}
+
 class Skill extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
+        // let proficientSkills = [];
+        // let competentSkills = [];
+        // let noviceSkills = [];
+        // this.props.skills.proficient.forEach((skill) => {
+        //   proficientSkills.push(<SkillRow skill={skill} key={skill.title}/>);
+        // });
         return (
           <div id="skills" className="real-section section scrollspy">
               <div className="row">
@@ -15,7 +38,8 @@ class Skill extends React.Component {
                           <h4 className="skill-sub-title">Proficient</h4>
                           <div className="divider"></div>
                           <div className="skill-content">
-                              {/* <span title="java" className="devicons devicons-java"></span>
+                            {/* {proficientSkills} */}
+                              <span title="java" className="devicons devicons-java"></span>
                               <span title="javascript" className="devicons devicons-javascript_badge"></span>
                               <span title="html 5" className="devicons devicons-html5"></span>
                               <span title="dot net" className="devicons devicons-dotnet"></span>
@@ -31,7 +55,7 @@ class Skill extends React.Component {
                               <span title="bitbucket" className="devicons devicons-bitbucket"></span>
                               <span title="jira" className="devicons devicons-jira"></span>
                               <span title="apple" className="devicons devicons-apple"></span>
-                              <span title="windows" className="devicons devicons-windows"></span> */}
+                              <span title="windows" className="devicons devicons-windows"></span>
                           </div>
                       </div>
                   </div>
@@ -42,7 +66,7 @@ class Skill extends React.Component {
                           <h4 className="skill-sub-title">Competent</h4>
                           <div className="divider"></div>
                           <div className="skill-content">
-                              {/* <span title="backbone" className="devicons devicons-backbone"></span>
+                              <span title="backbone" className="devicons devicons-backbone"></span>
                               <span title="angular" className="devicons devicons-angular"></span>
                               <span title="requirejs" className="devicons devicons-requirejs"></span>
                               <span title="heroku" className="devicons devicons-heroku"></span>
@@ -51,7 +75,8 @@ class Skill extends React.Component {
                               <span title="linux" className="devicons devicons-linux"></span>
                               <span title="aws" className="devicons devicons-aws"></span>
                               <span title="jenkins" className="devicons devicons-jenkins"></span>
-                              <span title="trello" className="devicons devicons-trello"></span> */}
+                              <span title="trello" className="devicons devicons-trello"></span>
+                              <span title="react" className="devicons devicons-react"></span>
                           </div>
                       </div>
                   </div>
@@ -62,7 +87,7 @@ class Skill extends React.Component {
                           <h4 className="skill-sub-title">Novice</h4>
                           <div className="divider"></div>
                           <div className="skill-content">
-                              {/* <span title="python" className="devicons devicons-python"></span>
+                              <span title="python" className="devicons devicons-python"></span>
                               <span title="haskel" className="devicons devicons-haskel"></span>
                               <span title="prolog" className="devicons devicons-prolog"></span>
                               <span title="react" className="devicons devicons-react"></span>
@@ -73,7 +98,7 @@ class Skill extends React.Component {
                               <span title="nodejs" className="devicons devicons-nodejs"></span>
                               <span title="grunt" className="devicons devicons-grunt"></span>
                               <span title="bower" className="devicons devicons-bower"></span>
-                              <span title="npm" className="devicons devicons-npm"></span> */}
+                              <span title="npm" className="devicons devicons-npm"></span>
                           </div>
                       </div>
                   </div>

@@ -8,10 +8,6 @@
  * Made By MaterializeCSS.com
  */
 
-.mainStyle {
-
-}
-
 @font-face {
     font-family: 'Material Icons';
     font-style: normal;
@@ -106,6 +102,7 @@ ul.ul-content>li {
 
 .nav-title {
     height: 20px;
+    font-size: x-large;
 }
 
 .skill-sub-title {
@@ -114,7 +111,7 @@ ul.ul-content>li {
 }
 
 .skill-content {
-    padding: 0 0 10px 15px;
+   display:inline-block;
 }
 
 .skill {
@@ -128,4 +125,8 @@ ul.ul-content>li {
 .social-section {
     bottom: 45px;
     right: 24px;
+}
+
+.skill-content > span {
+   float: left;
 }

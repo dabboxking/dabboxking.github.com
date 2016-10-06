@@ -1,8 +1,5 @@
 import React from 'react';
 
-import Profile from './Profile';
-import Experience from './Experience';
-
 class Project extends React.Component {
     render() {
         return (
@@ -126,8 +123,6 @@ class Project extends React.Component {
                   </div>
               </div>
           </div>
-
-
         );
     }
 }

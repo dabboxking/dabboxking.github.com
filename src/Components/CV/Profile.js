@@ -8,7 +8,6 @@ class Profile extends React.Component {
         };
     }
     componentDidMount() {
-        console.log(this.props.url);
         $.ajax({
             url: this.props.url,
             dataType: 'json',
