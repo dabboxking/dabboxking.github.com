@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
       <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="public/css/land.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -13,37 +15,24 @@
     <title>Emmanuel J. Reyme</title>
 </head>
 <body>
-    <video playsinline autoplay muted loop poster="https://s3.amazonaws.com/emmanueljreyme.co/Walking-Away.jpg" id="bgvid">
-        <source src="https://s3.amazonaws.com/emmanueljreyme.co/Walking-Away.webm" type="video/webm">
-        <source src="https://s3.amazonaws.com/emmanueljreyme.co/Walking-Away.mp4" type="video/mp4">
+    <video playsinline autoplay muted loop poster="http://d3jd7x81gavy7v.cloudfront.net/land.jpg" id="bgvid">
+        <source src="http://d3jd7x81gavy7v.cloudfront.net/land.webm" type="video/webm">
+        <source src="http://d3jd7x81gavy7v.cloudfront.net/land.mp4" type="video/mp4">
     </video>
-    <nav class="land-nav">
-   <div class="nav-wrapper">
-     <a href="#" class="brand-logo">@dabboxking</a>
-   </div>
- </nav>
-    <div class="container land-btn-grp animated bounce">
-        <h1 class="center header white-text">Emmanuel J. Reyme</h1>
+    <div class="container land-content animated fadeIn">
+        <h1 class="center header white-text land-title">Emmanuel J. Reyme</h1>
         <div class="row center">
             <h5 class="header col s12"></h5>
+            <span>  <a href="public/cv.html" class="btn waves-effect waves-light land-btn">Work</a></span>
+            <span>  <a href="public/blog.html" class="btn waves-effect waves-light land-btn">Life</a></span>
         </div>
-        <div class="row center">
-            <a href="public/cv.html" class="btn-large waves-effect waves-light land-btn">#Work</a>
-        </div>
-        <div class="row center" title="Life, a work it progress">
-            <a href="public/blog.html" class="btn-large waves-effect waves-light land-btn">#Life</a>
-        </div>
-        <!-- <div class="row center">
-            <a href="#" class="btn-large waves-effect waves-light land-btn disabled">#Balance</a>
-        </div> -->
     </div>
-    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-    <a id="vidpause" class="btn-floating btn-large red">
-      Pause
+    <div class="fixed-action-btn animated bounceInLeft" style="bottom: 45px; right: 24px;">
+    <a id="vidpause" class="btn-floating btn-large pause-btn">
+      <i class="material-icons" id="pause">pause</i>
     </a>
   </div>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
     <script type="text/javascript" src="public/js/land.js"></script>
     <script type="text/javascript" src="public/js/google-analytic.js"></script>

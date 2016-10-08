@@ -27,8 +27,8 @@ class Profile extends React.Component {
                     <h1>Emmanuel J<strong> Reyme</strong>
                     </h1>
                     <blockquote>
-                        <p id="content" className="flow-text ">{this.state.data.content}</p>
-                        <p id="author" className="flow-text right-align">{this.state.data.author}</p>
+                        <p id="content" className="flow-text ">"{this.state.data.content}"</p>
+                        <p id="author" className="flow-text right-align">- {this.state.data.author}</p>
                     </blockquote>
                 </div>
             </div>

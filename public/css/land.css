@@ -11,30 +11,73 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(../images/Walking-Away.jpg) no-repeat;
+    background: url(http://d3jd7x81gavy7v.cloudfront.net/land.jpg) no-repeat;
     background-size: cover;
+}
+
+.land-content {
+    padding-top: 45vh;
+}
+
+
+
+.land-nav {
+    background-color: #424242;
+}
+
+.land-title {
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.pause-btn {
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.pause-btn:hover {
+    background-color: transparent;
+    border: 1px solid;
+    color: #ffc107;
+}
+
+.land-btn {
+    width: 260px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.land-btn:hover {
+    width: 260px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid;
+    color: #ffc107;
 }
 
 @media screen and (max-device-width: 800px) {
     html {
-         background: url(../images/Walking-Away.jpg) #000 no-repeat center center fixed;
+        background: url(http://d3jd7x81gavy7v.cloudfront.net/land.jpg) #000 no-repeat center center fixed;
     }
     #bgvid {
         display: none;
     }
     #vidpause {
-      display: none;
+        display: none;
     }
-}
-.land-nav {
-  background-color: #424242;
-}
-.land-btn {
-  width: 260px;
-  height: 70px;
-  line-height: 70px;
-  font-size: 18px;
-  font-weight: 400;
-    background-color: #ffffff;
-    color: #000000;
+    .land-content {
+        padding-top: 30vh;
+    }
+    .land-btn {
+      margin-top: 5px;
+      width: 222px;
+      height: 60px;
+    }
 }
