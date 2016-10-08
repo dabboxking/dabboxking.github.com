@@ -22170,6 +22170,25 @@
 	                                "li",
 	                                null,
 	                                _react2.default.createElement("div", { className: "divider" })
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                _react2.default.createElement(
+	                                    "a",
+	                                    { href: "../../public/blog.html" },
+	                                    _react2.default.createElement(
+	                                        "i",
+	                                        { className: "small material-icons left" },
+	                                        "launch"
+	                                    ),
+	                                    "Blog"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "li",
+	                                null,
+	                                _react2.default.createElement("div", { className: "divider" })
 	                            )
 	                        ),
 	                        _react2.default.createElement(

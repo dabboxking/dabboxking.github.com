@@ -21,6 +21,8 @@ class Header extends React.Component {
                         <li><div className="divider"></div></li>
                         <li><a href="#education"><i className="small material-icons left">school</i>Education</a></li>
                         <li><div className="divider"></div></li>
+                        <li><a href="../../public/blog.html"><i className="small material-icons left">launch</i>Blog</a></li>
+                        <li><div className="divider"></div></li>
                     </ul>
                     <a href="#" id="show-me" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
                 </nav>

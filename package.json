@@ -14,7 +14,7 @@
     "react-router": "^2.8.1"
   },
   "scripts": {
-    "bs": "browser-sync start --server --files '*.html, public/css/*.css, public/js/*.js, src/*.js, src/Components/*.js, src/Components/CV/*.js'",
+    "bs": "browser-sync start --server --files '*.html, public/*.html, public/css/*.css, public/js/*.js, src/*.js, src/Components/*.js, src/Components/CV/*.js'",
     "wp": "webpack -d --watch",
     "build": "webpack -p",
     "test": "tap test/*.js"
