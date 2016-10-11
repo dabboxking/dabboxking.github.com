@@ -1,27 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="../bower_components/Materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../bower_components/devicons/css/devicons.min.css">
-    <link rel="stylesheet" href="../bower_components/animate.css/animate.min.css">
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="Personal website made by The Programmer Emmanuel J. Reyme for everyone to see">
     <meta name="author" content="Emmanuel J. Reyme">
     <title>Emmanuel J. Reyme</title>
 </head>
 <body>
-    <div id="app"></div>
-    <script type="text/javascript" src="../bower_components/react/react.js"></script>
-    <script type="text/javascript" src="../bower_components/react/react-dom.js"></script>
+    <header>
+        <nav>
+            <ul id="slide-out" class="side-nav fixed">
+                <li>
+                    <div class="nav-section">
+                        <div class="nav-name right-align">Emmanuel J <strong>Reyme</strong></div>
+                        <div class="nav-title right-align black-text">The Programmer</div>
+                    </div>
+                </li>
+                <li><a href="#profile"><i class="small material-icons">face</i>Profile</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a href="#experience"><i class="small material-icons">business</i>Work Experience</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a href="#projects"><i class="small material-icons left">folder</i>Projects</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a href="#skills"><i class="small material-icons left">assignment</i>Skills</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a href="#education"><i class="small material-icons left">school</i>Education</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a href="../../public/blog.html"><i class="small material-icons left">launch</i>Blog</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+            </ul>
+            <a href="#" id="show-me" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        </nav>
+    </header>
+    <main class="mainStyle">
+        <div id="cv" class="row">
+            <div id="profile" class="give-me-height section scrollspy profile">
+                <div id="profile-title" class="col s12 m12">
+                    <h1>Emmanuel J<strong> Reyme</strong>
+                  </h1>
+                    <blockquote>
+                        <p id="content" class="flow-text "></p>
+                        <p id="author" class="flow-text right-align"></p>
+                    </blockquote>
+                </div>
+            </div>
+            <div id="experience" class="real-section section scrollspy">
+                <div class="col s12 m12 section-title">
+                    <h1 class="white-text">Work Experience</h1>
+                </div>
+                <div class="row">
+                    <div class="left col s6 m6 ">
+                        <h5 class=" left-align">
+                          <a target="_blank" href="http://powertekcorporation.com/">Powertek Corporation</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">December 2014 - Present</p>
+                        <p class="section-subtitle right-align">Software Developer</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <div class="chip">Java</div>
+                        <div class="chip">Spring</div>
+                        <div class="chip">Tapestry</div>
+                        <div class="chip">JavaScript</div>
+                        <div class="chip">Backbone JS</div>
+                        <div class="chip">HTML</div>
+                        <div class="chip">CSS</div>
+                        <div class="chip">Oracle</div>
+                        <div class="chip">MySQL</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">
+                          <a target="_blank" href="http://aspwv.com/">Associated Systems Professionals</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">July 2014 - October 2014</p>
+                        <p class="section-subtitle right-align">Software Developer</p>
+                    </div>
+                    <div class="col s12 m12 ">
+                        <div class="chip">C#</div>
+                        <div class="chip">ASP.NET</div>
+                        <div class="chip">JavaScript</div>
+                        <div class="chip">HTML</div>
+                        <div class="chip">CSS</div>
+                        <div class="chip">MS SQL</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">
+                          <a target="_blank" href="http://www.marshall.edu/muonline/">Marshall University - Design Center</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">March 2011 - May 2014</p>
+                        <p class="section-subtitle right-align">Instructional Designer</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <div class="chip">Blackboard Learn</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">
+                          <a target="_blank" href="https://www.brickstreet.com">BrickStreet Mutual Insurance</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">May 2013 - August 2013</p>
+                        <p class="section-subtitle right-align">Intern, Data Warehouse Developer</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <div class="chip">SQL</div>
+                        <div class="chip">PL/SQL</div>
+                        <div class="chip">APEX</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">
+                          <a target="_blank" href="http://www.marshall.edu/math/">Marshall University - Mathematics Department</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">November 2012 - February 2014</p>
+                        <p class="section-subtitle right-align">WeBWork Developer</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <div class="chip">Perl</div>
+                        <div class="chip">Latex</div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="real-section section scrollspy">
+                <div class="col s12 m12 section-title">
+                    <h1 class="white-text">Projects</h1>
+                </div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">
+                          <a target="_blank" href="https://github.com/dabboxking/cyclock-project">Cyclock Project</a>
+                      </h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">May 2014 - Present</p>
+                        <p class="section-subtitle right-align">Independent</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <ul class="ul-content">
+                            <li>
+                                A community based anti bike theft application.
+                            </li>
+                        </ul>
+                        <div class="chip">Java</div>
+                        <div class="chip">Spring</div>
+                        <div class="chip">Thymeleaf</div>
+                        <div class="chip">HTML</div>
+                        <div class="chip">CSS</div>
+                        <div class="chip">Postgres</div>
+                        <div class="chip">Heroku</div>
+                        <div class="chip">AWS</div>
+                    </div>
+                </div>
+            </div>
+            <div id="skills" class="real-section section scrollspy">
+                <div class="row">
+                    <div class="col s12 m12 section-title">
+                        <h1 class="white-text">Skills</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="skill z-depth-2">
+                            <h4 class="skill-sub-title">Proficient</h4>
+                            <div class="divider"></div>
+                            <div class="skill-content">
+                                <span title="java" class="devicons devicons-java"></span>
+                                <span title="javascript" class="devicons devicons-javascript_badge"></span>
+                                <span title="html 5" class="devicons devicons-html5"></span>
+                                <span title="dot net" class="devicons devicons-dotnet"></span>
+                                <span title="materialize" class="devicons devicons-materializecss"></span>
+                                <span title="bootstrap" class="devicons devicons-bootstrap"></span>
+                                <span title="css 3" class="devicons devicons-css3"></span>
+                                <span title="mysql" class="devicons devicons-mysql"></span>
+                                <span title="msql server" class="devicons devicons-msql_server"></span>
+                                <span title="eclipse" class="devicons devicons-eclipse"></span>
+                                <span title="visual studio" class="devicons devicons-visualstudio"></span>
+                                <span title="git" class="devicons devicons-git"></span>
+                                <span title="github" class="devicons devicons-github"></span>
+                                <span title="bitbucket" class="devicons devicons-bitbucket"></span>
+                                <span title="jira" class="devicons devicons-jira"></span>
+                                <span title="apple" class="devicons devicons-apple"></span>
+                                <span title="windows" class="devicons devicons-windows"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="skill z-depth-2">
+                            <h4 class="skill-sub-title">Competent</h4>
+                            <div class="divider"></div>
+                            <div class="skill-content">
+                                <span title="backbone" class="devicons devicons-backbone"></span>
+                                <span title="angular" class="devicons devicons-angular"></span>
+                                <span title="requirejs" class="devicons devicons-requirejs"></span>
+                                <span title="heroku" class="devicons devicons-heroku"></span>
+                                <span title="intellij" class="devicons devicons-intellij"></span>
+                                <span title="travis" class="devicons devicons-travis"></span>
+                                <span title="linux" class="devicons devicons-linux"></span>
+                                <span title="aws" class="devicons devicons-aws"></span>
+                                <span title="jenkins" class="devicons devicons-jenkins"></span>
+                                <span title="trello" class="devicons devicons-trello"></span>
+                                <span title="react" class="devicons devicons-react"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="skill z-depth-2">
+                            <h4 class="skill-sub-title">Novice</h4>
+                            <div class="divider"></div>
+                            <div class="skill-content">
+                                <span title="python" class="devicons devicons-python"></span>
+                                <span title="haskel" class="devicons devicons-haskel"></span>
+                                <span title="prolog" class="devicons devicons-prolog"></span>
+                                <span title="react" class="devicons devicons-react"></span>
+                                <span title="sass" class="devicons devicons-sass"></span>
+                                <span title="less" class="devicons devicons-less"></span>
+                                <span title="postgresql" class="devicons devicons-postgresql"></span>
+                                <span title="mongodb" class="devicons devicons-mongodb"></span>
+                                <span title="nodejs" class="devicons devicons-nodejs"></span>
+                                <span title="grunt" class="devicons devicons-grunt"></span>
+                                <span title="bower" class="devicons devicons-bower"></span>
+                                <span title="npm" class="devicons devicons-npm"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="education" class="give-me-height real-section section scrollspy">
+                <div class="col s12 m12 section-title">
+                    <h1 class="white-text">Education</h1>
+                </div>
+                <div class="row">
+                    <div class="left col s6 m6">
+                        <h5 class="left-align">Marshall University</h5>
+                    </div>
+                    <div class="right col s6 m6">
+                        <p class="section-date right-align">August 2010 - May 2014</p>
+                        <p class="section-subtitle right-align">Bachelor of Science</p>
+                    </div>
+                    <div class="col s12 m12">
+                        <ul class="ul-content">
+                            <li>
+                                <a target="_blank" href="http://www.marshall.edu/">Marshall.edu</a>
+                            </li>
+                            <li>
+                                Huntington, West Virginia
+                            </li>
+                            <li>
+                                Computer Science
+                            </li>
+                            <li>
+                                Courses: Software Engineering, Computer Architecture, Database Engineering, Algorithm Analysis and Design, Internetworking, Operating Systems, Statistics, Calculus II
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fixed-action-btn social-section">
+                <a class="btn-floating btn-large red">
+                    <i class="large material-icons">contacts</i>
+                </a>
+                <ul>
+                    <li class="social-icons">
+                        <a target="_blank" href="https://www.linkedin.com/in/emmanueljreyme" class="btn-floating blue">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-icons">
+                        <a target="_blank" href="https://twitter.com/dabboxking" class="btn-floating blue">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-icons">
+                        <a target="_blank" href="https://github.com/dabboxking" class="btn-floating blue">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
     <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../bower_components/Materialize/dist/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
-    <script type="text/javascript" src="bundle.js"></script>
     <script type="text/javascript" src="js/google-analytic.js"></script>
 </body>
 </html>
