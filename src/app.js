@@ -1,4 +1,4 @@
 import ReactDOM  from 'react-dom';
-import CV from './Components/CV';
+import BLOG from './Components/Blog';
 
-ReactDOM.render(<CV/>,document.getElementById('app'));
+ReactDOM.render(<BLOG/>,document.getElementById('app'));
